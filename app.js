@@ -1,6 +1,7 @@
 // return div and button
 const btnColor = document.querySelector("#btn-color");
 const txtColor = document.querySelector("#txt-color");
+const headingColor = document.querySelector("h1");
 
 // Randoming color event on click
 btnColor.addEventListener("click", randomColor);
@@ -19,11 +20,17 @@ function randomColor() {
     const finalColor = `rgb(${redRange}, ${greenRange}, ${blueRange})`;
 
     document.body.style.background = finalColor;
+    headingColor.style.color = finalColor;
+    btnColor
+    .style.color = finalColor;
     // Changing text on every click
     txtColor.textContent = finalColor;
+    
+
     // For better view changing text color
     if (redRange < 100 && greenRange < 100 && blueRange < 100) {
         txtColor.style.color = "#fff";
+
     } else {
         txtColor.style.color = "#000";
     };
