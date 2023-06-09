@@ -1,6 +1,6 @@
 # Background Changer
 
-==**Vanilla JavaScript.**==
+<span style="color:yellow">Vanilla JavaScript.</span>
 
 ### Features:
 - Random color background;
