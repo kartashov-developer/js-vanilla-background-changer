@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     background-color: var(--main-color);
     transition: all .2s linear;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -43,7 +44,6 @@ h1 {
 
 #txt-color {
     margin: 1rem 0;
-    font-family: serif;
     font-size: 3rem;
 }
 
@@ -60,4 +60,69 @@ h1 {
 #btn-color:hover {
     background-color: #DADCE0;
 
+}
+
+.choose__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+.choose {
+    font-size: 2.2rem;
+}
+
+.input {
+    height: 5rem;
+    width: 5rem;
+    padding: 5px;    
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.input:hover {
+    border: 2px solid #000;
+}
+
+.footer {
+    display: flex;
+    gap: 10px;
+}
+
+.footer > div {
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #000;
+}
+
+.item1 {
+    background: #B5B462;
+    cursor: pointer;
+}
+.item2 {
+    background: #AC5D47;
+    cursor: pointer;
+}
+.item3 {
+    background: #2F6178;
+    cursor: pointer;
+}
+.item4 {
+    background: #ff0000;
+    cursor: pointer;
+}
+.item5 {
+    background: #6ED3C6;
+    cursor: pointer;
+}
+.item6 {
+    background: #ae00ff;
+    cursor: pointer;
+}
+.item7 {
+    background: #ff006f;
+    cursor: pointer;
+}
+.item8 {
+    background: #ff5500;
+    cursor: pointer;
 }
