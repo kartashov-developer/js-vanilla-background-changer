@@ -1,8 +1,8 @@
-# Background Changer
+# Background Changer🎨
 
-<span style="color:yellow">Vanilla JavaScript.</span>
+**Vanilla JavaScript.**
 
 ### Features:
-- Random color background;
-- Choosing color from input;
-- Choosing color by yourself.
+- 🎲Random color background;
+- ⌨️Choosing color from input;
+- 🌈Choosing of preset colors.
